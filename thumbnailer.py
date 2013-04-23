@@ -115,7 +115,8 @@ def makeSS(path,filename,num):
 # total number of thumbnails
 # thumbnails every x duration or percent
 # arrangement of tiles(x*y)
-# Take a diractory as input or a specific file.
+# Take a directory as input or a specific file.
+# Add an output directory
 def main():
 	cmnd = ['cat','/etc/mime.types']
 	p = subprocess.Popen(cmnd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
